@@ -1141,7 +1141,7 @@ public class GridLabelRenderer {
             mPaintAxisTitle.setColor(getHorizontalAxisTitleColor());
             mPaintAxisTitle.setTextSize(getHorizontalAxisTitleTextSize());
             float x = canvas.getWidth() / 2;
-            float y = canvas.getHeight() - mStyles.padding;
+            float y = canvas.getHeight() +10;
             canvas.drawText(mHorizontalAxisTitle, x, y, mPaintAxisTitle);
         }
     }
